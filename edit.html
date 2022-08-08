@@ -1,10 +1,118 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: Assignment - edit
----
+<!DOCTYPE html>
+<html lang="zh-Tw">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <nav class="sidebar">
+      <div>
+        <a href="#" class="logo mb-40">
+          <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/511621e1dbd95ed23eda0ce324da7a9f5ec7057d/week5/logo-ANSWER.svg" alt="ANSWER LOGO">
+        </a>
+        <ul class="sidebar-list">
+          <li class="mb-28">
+            <a href="#" class="d-flex">
+              <span class="material-icons mr-16">
+                leaderboard
+              </span>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="mb-28">
+            <a href="#" class="d-flex">
+              <span class="material-icons mr-16">
+                question_answer
+              </span>
+              <p>Question</p>
+            </a>
+          </li>
+          <li class="mb-28">
+            <a href="./index.html" class="d-flex">
+              <span class="material-icons mr-16">
+                assignment
+              </span>
+              <p>Assignment</p>
+            </a>
+          </li>
+          <li class="mb-28">
+            <a href="#" class="d-flex">
+              <span class="material-icons mr-16">
+                shop_2
+              </span>
+              <p>Course</p>
+            </a>
+          </li>
+          <li class="mb-28">
+            <a href="#" class="d-flex">
+              <span class="material-icons mr-16">
+                people_alt
+              </span>
+              <p>Admin</p>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="d-flex">
+              <span class="material-icons mr-16">
+                settings
+              </span>
+              <p>Settings</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="user d-flex">
+        <img class="user-photo mr-16" src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&amp;ixid=eyjhchbfawqiojeymdd9&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=80" alt="user">
+        <div>
+          <p>Andy Chen</p>
+          <p class="user-mail">andy0401@mail.com</p>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="category d-flex">
+        <div class="categoryArea d-flex">
+          <h2>Assignment</h2>
+          <div class="dropDown d-flex">
+              <p>All Courses</p>
+              <span class="material-icons">
+                expand_more
+              </span>
+          </div>
+        </div>
+  
+        <ul class="icon-links d-flex">
+          <li>
+            <a href="#">
+              <span class="material-icons">
+                search
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-icons">
+                notifications_active
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      
 <div class="assignmentArea">
     <div class="allCourses">
         <a href="#" class="d-flex">
@@ -168,3 +276,11 @@ current: Assignment - edit
         </div>
     </section>
 </div>
+
+    </section>
+  </div>
+  
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+</html>
